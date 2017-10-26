@@ -25,4 +25,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    // AWS
+    // 2.3.+系では動く
+    compile 'com.amazonaws:aws-android-sdk-core:2.3.+'
+    compile 'com.amazonaws:aws-android-sdk-s3:2.3.+'
+    // 2.4.+系では動かない
+    //compile 'com.amazonaws:aws-android-sdk-core:2.4.+'
+    //compile 'com.amazonaws:aws-android-sdk-s3:2.4.+'
 }
